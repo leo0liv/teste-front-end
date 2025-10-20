@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+.HeaderInfo {
+    display: flex;
+    justify-content: center;
+}
+.HeaderInfo-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 764px;
+
+
+}
+.HeaderInfo-subContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.HeaderInfo-text {
+    font-size: 12px;
+    color: #9F9F9F;
+}
+.corInfo{
+    color: #3019B2;
+}
