@@ -1,0 +1,44 @@
+
+.Menu-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1280px;
+    height: 72px;
+    top: 32px;
+    margin-left: 250px;
+
+}
+.Icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    gap: 30px;
+}
+
+.search-container {
+    display: flex;
+    margin-left: 250px;
+}
+.input-search {
+    font-family: 'Poppins', sans-serif;
+    width: 630px;
+    height: 48px;
+    border-radius: 10px;
+    border: none;
+    background: #F6F5F2;
+
+    &::placeholder {
+      padding-left: 20px;  
+      color: #9F9F9F;
+      font-weight: 500; 
+      font-size: 14px;
+      opacity: 1; 
+    }
+}
+.search-icon {
+    position: relative;
+    top: 9px;
+    right: 50px;
+}

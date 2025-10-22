@@ -11,31 +11,31 @@ import "./Menu.scss"
 function Menu() {
 
   return (
-    <div className="Menu-container">
-      <div className="Logo-container">
-        <Logo />
+      <div className="Menu-container">
+            <div className="Logo-container">
+              <Logo />
+            </div>
+            <div className="search-container">
+              <input className="input-search" type="text" placeholder="O que você está buscando?" />
+              <span className="search-icon">
+                <SearchIcon />
+              </span>
+            </div>
+            <div className="Icon-container">
+              <div>
+                <BoxIcon />
+              </div>
+              <div>
+                <HeartIcon />
+              </div>
+              <div>
+                <UserIcon />
+              </div>
+              <div>
+                <ShopCartIcon />
+              </div>
+            </div>
       </div>
-      <div className="search-container">
-        <input type="text" placeholder="O que você está buscando?" />
-        <span className="search-icon">
-          <SearchIcon />
-        </span>
-      </div>
-      <div>
-        <div>
-          <BoxIcon />
-        </div>
-        <div>
-          <HeartIcon />
-        </div>
-        <div>
-          <UserIcon />
-        </div>
-        <div>
-          <ShopCartIcon />
-        </div>
-      </div>
-    </div>
   )
 }
 
