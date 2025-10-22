@@ -1,0 +1,34 @@
+.Navbar{
+    display: flex;
+    justify-content: center;
+}
+.Navbar-container{
+    width: 1280px;
+    height: 40px;
+    margin-right: 80px;
+    border-top: 1px solid #ccc;
+}
+.Navbar-categories{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    text-decoration: none;
+    gap: 50px;
+ 
+}
+.Navbar-text{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500; 
+    font-size: 14px;
+    text-decoration: none;
+    color: #9F9F9F;
+    transition: color 0.3s, border-bottom 0.3s;
+    border-bottom: 2px solid transparent;
+}
+.Navbar-text:hover {
+  color: #ccc;
+  border-bottom: 2px solid #ccc;
+}
+.Color-oferta{
+    color: #3019B2;
+}
