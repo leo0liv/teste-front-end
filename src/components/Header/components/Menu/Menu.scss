@@ -6,20 +6,21 @@
     width: 1280px;
     height: 72px;
     top: 32px;
-    margin-left: 250px;
+    margin-left: 270px;
+    border-top: 1px solid #9F9F9F;
 
 }
 .Icon-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 100px;
-    gap: 30px;
+    margin-left: 50px;
+    gap: 20px;
 }
 
 .search-container {
     display: flex;
-    margin-left: 250px;
+    margin-left: 200px;
 }
 .input-search {
     font-family: 'Poppins', sans-serif;
